@@ -1,0 +1,15 @@
+spring:
+  main:
+    banner-mode: off
+  cloud:
+    azure:
+      msi-enabled: false
+      servicebus.connection-string: ...
+    stream:
+      bindings:
+        handler-in-0:
+          destination: pojo-in
+        handler-out-0:
+          destination: pojo-out
+    function:
+      definition: handler

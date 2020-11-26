@@ -1,0 +1,13 @@
+{
+  "name": "ziodave/service-bus",
+  "type": "project",
+  "authors": [
+    {
+      "name": "David Riccitelli",
+      "email": "david@wordlift.io"
+    }
+  ],
+  "require": {
+    "microsoft/windowsazure": "*"
+  }
+}
